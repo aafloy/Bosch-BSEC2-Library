@@ -211,7 +211,7 @@ public:
      */
     void clearMemory(void);
 
-private:
+public:
     bsec_bme_settings_t bmeConf;
 
     bsecCallback newDataCallback;
